@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "title": "Ada berapa gambar sayuran di bawah ini ?",
+      "answer": "3",
+      "type": "shortResponse"
+    },
+    {
+      "title": "Ekspresi apa yang sedang ditunjukan oleh gambar di bawah ini ?",
+      "answer": "senang",
+      "type": "multipleChoice",
+      "choices": [
+        "senang",
+        "sedih",
+        "takut",
+        "marah",
+        "kaget"
+      ]
+    },
+    {
+      "title": "Pilihlah dari cabang olahraga berikut yang menggunakan bola sebagai salah satu alat permainan",
+      "answer": "sepak bola, golf",
+      "type": "multipleChoiceTwoAnswer",
+      "choices": [
+        "catur",
+        "golf",
+        "bulutangkis",
+        "berkuda",
+        "sepak bola"
+      ]
+    }
+    
+  ]
+}
