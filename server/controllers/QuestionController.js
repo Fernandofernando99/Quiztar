@@ -18,7 +18,7 @@ class QuestionController {
   }
 
   static showQuestions (req, res) {
-    User.findOne(req.body.id)
+    User.findOne(req.headers.id)
       .then(found => {
         if (found) {
           return Question.find()

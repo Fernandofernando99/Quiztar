@@ -2,33 +2,114 @@
   "questions": [
     {
       "title": "Ada berapa gambar sayuran di bawah ini ?",
+      "picName": [
+        "Bayam",
+        "Brokoli",
+        "Kepiting",
+        "Sawi",
+        "Telur"
+      ],
       "answer": "3",
       "type": "shortResponse"
     },
     {
+      "title": "Ada berapa jumlah kepiting di bawah ini ?",
+      "picName": [
+        "Kepiting",
+        "Kepiting",
+        "Kepiting",
+        "Bayam",
+        "Udang"
+      ],
+      "answer": "3",
+      "type": "shortResponse"
+    },
+    {
+      "title": "Berapa hasil dari perhitungan berikut ?",
+      "oneQuestion": "10 + 6 / 2",
+      "answer": "13",
+      "type": "shortResponse"
+    },
+    {
+      "title": "Jawablah pertanyaan berikut ini:",
+      "oneQuestion": "Jika kamu memiliki senjata panah, dan terdapat 9 burung sedang bertengger di sisi pohon. Setelah kamu menembakkan anak panah, ternyata mengenai salah satu burung dan burung tersebuh jatuh ke tanah. Berapa jumlah burung yang masih ada di pohon tersebut ?",
+      "answer": "0",
+      "type": "shortResponse"
+    },
+    {
       "title": "Ekspresi apa yang sedang ditunjukan oleh gambar di bawah ini ?",
-      "answer": "senang",
+      "answer": "Senang",
       "type": "multipleChoice",
       "choices": [
-        "senang",
-        "sedih",
-        "takut",
-        "marah",
-        "kaget"
+        "Senang",
+        "Sedih",
+        "Takut",
+        "Marah",
+        "Bingung"
       ]
     },
     {
-      "title": "Pilihlah dari cabang olahraga berikut yang menggunakan bola sebagai salah satu alat permainan",
-      "answer": "sepak bola, golf",
+      "title": "Berikut ini merupakan jenis olahraga apa ?",
+      "answer": "Renang",
+      "type": "multipleChoice",
+      "choices": [
+        "Panahan",
+        "Renang",
+        "Bola basket",
+        "Boli pantai",
+        "Tolak peluru"
+      ]
+    },
+    {
+      "title": "Pilihlah kata yang tepat untuk melengkapi penggalan lirik lagu berikut ini",
+      "answer": "berbakti",
+      "oneQuestion": "Padamu negeri kami .... padamu negeri kami mengabdi",
+      "type": "multipleChoice",
+      "choices": [
+        "berjanji",
+        "berbakti",
+        "memberi",
+        "berseri",
+        "berbudi"
+      ]
+    },
+    {
+      "title": "Jawablah pertanyaan berikut ini:",
+      "answer": "Tempe Bacem",
+      "oneQuestion": "Pilihlah makanan di bawah ini yang tidak dimasak dengan cara digoreng",
+      "type": "multipleChoice",
+      "choices": [
+        "Nasi Goreng",
+        "Tempe Bacem",
+        "Ayam Geprek",
+        "Ketoprak",
+        "Pecel Lele"
+      ]
+    },
+    {
+      "title": "Jawablah pertanyaan berikut ini:",
+      "answer": ["Sepak Bola", "Golf"],
+      "oneQuestion": "Pilihlah dari cabang olahraga berikut yang menggunakan bola sebagai salah satu alat permainan",
       "type": "multipleChoiceTwoAnswer",
       "choices": [
-        "catur",
-        "golf",
-        "bulutangkis",
-        "berkuda",
-        "sepak bola"
+        "Catur",
+        "Golf",
+        "Bulutangkis",
+        "Berkuda",
+        "Sepak Bola"
+      ]
+    },
+    {
+      "title": "Profesi apakah 2 gambar berikut ini ?",
+      "answer": ["Dokter", "Pilot"],
+      "type": "multipleChoiceTwoAnswer",
+      "choices": [
+        "Polisi",
+        "Pengacara",
+        "Pilot",
+        "Bidan",
+        "Dokter"
       ]
     }
-    
   ]
 }
